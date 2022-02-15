@@ -1,5 +1,25 @@
-1. Create Project : composer create-project laravel/laravel {file Name}
-2. Start project Server : php artisan serve
-3. Caching configration : php artisan config:cache
-4. Maintenance Mode ON : php artisan down
-5. Maintenance Mode Off : php artisan up
+CMD Laravel commands: 
+  1. Create Project : composer create-project laravel/laravel {file Name}
+  2. Start project Server : php artisan serve
+  3. Caching configration : php artisan config:cache
+  4. Maintenance Mode ON : php artisan down
+  5. Maintenance Mode Off : php artisan up
+
+Routing
+  1. any
+  2. get
+  3. post
+  4. put
+  5. patch
+  6. delete
+
+View() function 
+  -> It separates the application logic and the presentation logic. Views are stored in resources/views directory. Generally, the view contains the HTML which will be served by the application. exe: return view('test');
+
+compact() function
+  The compact() function creates an array from variables and their values.
+  ex :-
+    $firstname = "Peter";
+    $lastname = "Griffin";
+    $age = "41";
+    $result = compact("firstname", "lastname", "age");

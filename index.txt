@@ -1,0 +1,5 @@
+1. Create Project : composer create-project laravel/laravel {file Name}
+2. Start project Server : php artisan serve
+3. Caching configration : php artisan config:cache
+4. Maintenance Mode ON : php artisan down
+5. Maintenance Mode Off : php artisan up
